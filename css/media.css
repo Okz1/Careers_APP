@@ -1,0 +1,177 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width: 1025px) {
+  nav {
+    display: none; }
+  .header .mobile-menu {
+    display: block; }
+  .header .hamburger {
+    display: block; }
+  .header .close {
+    display: block; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .slider-descr {
+    top: 40%; }
+    .slider-descr .h1 {
+      font-size: 5.5rem;
+      margin-bottom: 10px; }
+  .slider-main .slick-next, .slider-main .slick-prev {
+    top: 55%; }
+  .choose .sectione-descr {
+    margin-top: 65px; }
+  .choose .skill-box {
+    margin-top: 60px; }
+  .product-title {
+    padding: 57px 0; }
+  .product h2 {
+    letter-spacing: 3px;
+    top: 15px; }
+  .about {
+    padding-top: 50px; }
+  .about-left {
+    margin-right: 50px; }
+  .getin-descr {
+    margin-top: 20px;
+    margin-bottom: 50px; }
+  .getin-form {
+    padding: 87px 30px 60px 67px; }
+  .send_form {
+    width: 360px; }
+  .getin-form form textarea {
+    width: 360px; }
+  .getin-form form select {
+    width: 165px; }
+  .getin-form form .input-name {
+    width: 180px; }
+  .getin-form {
+    width: 730px; }
+  .getin-form form {
+    width: 387px; }
+  .about-descr {
+    margin-top: 30px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .about-descr p {
+    width: 100%; }
+  .slider-descr {
+    max-width: 500px;
+    top: 25%; }
+  .slider-main .slick-next, .slider-main .slick-prev {
+    top: 45%; }
+  .slider-descr .h1 {
+    font-size: 4.5rem; }
+  .choose .skill-box {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .choose .skill-box__item {
+    margin-bottom: 20px; }
+  .choose .skill-box {
+    margin-bottom: 20px; }
+  .about-content-left {
+    width: 100%;
+    margin: 0; }
+  .about-content {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .product-slider-item {
+    width: 300px; }
+  .slider-main .slick-next, .slider-main .slick-prev {
+    top: 50%; }
+  .getin-form {
+    width: 500px; }
+  .getin-form form .input-name {
+    width: 200px;
+    margin-bottom: 10px; }
+  .getin-form form textarea {
+    width: 200px; }
+  .getin-form form select {
+    width: 200px; }
+  .getin-form form {
+    width: 220px; }
+  .adres_box__item:nth-child(4) {
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  .adres_box__item:nth-child(5) {
+    margin-bottom: 30px; }
+  .send_form {
+    width: 316px; }
+  .slider-descr {
+    top: 40%;
+    max-width: 400px; }
+  .slider-descr .h1 {
+    font-size: 4rem; }
+  .slider-main .slick-prev {
+    left: 10px; }
+  .slider-main .slick-next {
+    right: 10px; }
+  .footer p {
+    font-size: 1.3rem; }
+  .footer .social-netvork .fa {
+    font-size: 1.3rem;
+    margin-left: 10px; }
+  .getin-form form .btn_send {
+    padding: 10px 33px; }
+  .footer p {
+    margin-left: 15px; }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .getin-form form {
+    width: 200px;
+    margin: 0 auto; }
+  .getin-form {
+    width: 230px;
+    padding: 15px; }
+  .send_form {
+    width: 200px; }
+  .getin-form form .label_text {
+    margin-bottom: 10px; }
+  .adres_box {
+    display: none; }
+  .send_form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .slider-descr .h1 {
+    font-size: 2.5rem; }
+  .slider-descr .slider-descr__text {
+    font-size: 1.3rem; }
+  .slider-descr {
+    top: 40%; }
+  .slider-main .slick-next, .slider-main .slick-prev {
+    display: none; }
+  .header .mobile-menu {
+    right: 200px; }
+  .footer p {
+    width: 70%; } }
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */

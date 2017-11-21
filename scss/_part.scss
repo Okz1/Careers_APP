@@ -1,0 +1,27 @@
+// fonts
+$bold:"Lato-Bold",sans-serif;
+$regular:"Lato-Regular",sans-serif;
+$heavy:"Lato-Heavy",sans-serif; 
+$light:"Lato-Light",sans-serif; 
+$beyno:"BEYNO",sans-serif; 
+
+// color
+$main-color:#503392 ;
+$text-color: #232323;
+$yellow-color: #fff200;
+$blue-color: #009dda;
+$violet: #503392;
+
+
+
+// basick settings
+
+html,body{
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	min-width:320px;
+	font-family: $regular;
+	color: $text-color;
+}
+
